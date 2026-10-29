@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="SENA_OVA-01_Ensamble_Workstation" version="1.0"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="SENA_ORG">
+    <organization identifier="SENA_ORG">
+      <title>OVA-01: Ensamble de una Estación de Trabajo de Alto Desempeño</title>
+      <item identifier="ITEM_OVA01" identifierref="RES_OVA01">
+        <title>OVA-01: Ensamble de una Estación de Trabajo de Alto Desempeño</title>
+        <adlcp:masteryscore>70</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES_OVA01" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <file href="css/sena-theme.css"/>
+      <file href="css/components.css"/>
+      <file href="css/simulador-iso.css"/>
+      <file href="js/app.js"/>
+      <file href="js/evaluacion.js"/>
+      <file href="js/scorm.js"/>
+      <file href="assets/logos/sena-logo.svg"/>
+      <file href="assets/logos/sena-white.svg"/>
+      <file href="assets/fotos/01_inventario_componentes.jpg"/>
+      <file href="assets/fotos/02_desempaque_motherboard_esd.jpg"/>
+      <file href="assets/fotos/03_socket_procesador.jpg"/>
+      <file href="assets/fotos/04_aplicacion_pasta_termica.jpg"/>
+      <file href="assets/fotos/05_montaje_aio_liquida.jpg"/>
+      <file href="assets/fotos/06_gestion_cableado_trasero.jpg"/>
+      <file href="assets/fotos/07_inspeccion_gpu_rtx5080.jpg"/>
+      <file href="assets/fotos/08_peer_assembly_aprendices.jpg"/>
+      <file href="assets/fotos/09_primer_encendido_post.jpg"/>
+      <file href="assets/fotos/10_estacion_completada.jpg"/>
+    </resource>
+  </resources>
+</manifest>
